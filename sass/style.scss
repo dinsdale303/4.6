@@ -8,6 +8,9 @@ $color-dark: #222222;
 $font-one: "Montserrat", sans-serif;
 $font-three: "Droid Serif", sans-serif;
 
+
+
+
 //Global
 * {
   box-sizing: border-box;
@@ -15,9 +18,15 @@ $font-three: "Droid Serif", sans-serif;
   margin: 0;
 }
 
-.navbar-list {
+.navbar-item {
   display: inline-block;
   color: $color-light;
   font-style: Montserrat;
   font-size: 15px;
+}
+.navbar-item {
+  display: inline-block;
+}
+.navbar-item a {
+  text-decoration: none;
 }
